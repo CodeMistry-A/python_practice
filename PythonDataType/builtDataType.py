@@ -4,24 +4,71 @@
 # Variables can store data of different types, and different types can do different things.
 # Python has the following data types built-in by default, in these categories:
 
-# Text Type:	    str
-# Numeric Types:	int, float, complex
-# Sequence Types:	list, tuple, range
-# Mapping Type:	    dict
-# Set Types:	    set, frozenset
-# Boolean Type:	    bool
-# Binary Types:	    bytes, bytearray, memoryview
-# None Type:	    NoneType
+# Text type  = str
+# Numeric type  = int,float,complex
+# Sequence type = list,tuple,range
+# Mapping type = dict
+# Set type = set, frozenset
+# Boolen type = bool
+# Binary type = bytes,bytesarray,memoryview
+# None type = none
 
 
-# Getting the Data Type
+# # Getting the Data Type
 # You can get the data type of any object by using the type() function:
 
 # Example
 # Print the data type of the variable x:
 
-x = 5
-print(type(x))
+a = "Arshad"
+print (type(a))
+
+b = 5
+print(type(b))
+
+c = 4.3
+print(type(c))
+
+d = (7j)
+print(type(d))
+
+e = ["apple", "banana", "cherry"]	
+print(type(e))
+
+f = ("apple", "banana", "cherry")	
+print(type(f))
+
+g = range(3)
+print(type(g))
+
+h = {"Name" : "Arshad", "Age" : 22}
+print(type(h))
+
+i = {"Arshad", "Good", "Boy"}
+print(type(i))
+
+j = frozenset({"Data","Types","Python"})
+print(type(j))
+
+k = True
+print(type(k))
+
+l = b'333,Arshad'
+print(type(l))
+
+m = bytearray(98876)
+print(type(m))
+
+n = memoryview(bytes(76))
+print(type(n))
+
+o = None
+print(type(o))
+
+
+
+
+
 
 
 
