@@ -45,5 +45,5 @@ print(thisdict["model"])
 # The dict() costructor
 # Example : Using the dict() method to make a dictionary:
 
-thisdict = dict(name = "Rashid",age = '22',country = "India") 
+thisdict = dict(name = "Arsahd",age = '22',country = "India") 
 print(thisdict)
